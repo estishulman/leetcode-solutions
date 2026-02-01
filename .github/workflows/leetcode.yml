@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: Sync LeetCode
-        uses: Shenxn/leetcode-export@v2
+        uses: shenxn/leetcode-export@v2
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
           leetcode-username: estishulman
