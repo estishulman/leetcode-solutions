@@ -15,4 +15,4 @@ jobs:
         uses: joshcai/leetcode-sync@master
         with:
           github-token: ${{ secrets.GITHUB_TOKEN }}
-          leetcode-username: YOUR_USERNAME
+          leetcode-username: estishulman
